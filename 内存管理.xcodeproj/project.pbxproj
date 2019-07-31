@@ -13,6 +13,9 @@
 		C0BD27692296960100591CC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0BD27682296960100591CC2 /* Assets.xcassets */; };
 		C0BD276C2296960100591CC2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0BD276A2296960100591CC2 /* LaunchScreen.storyboard */; };
 		C0BD276F2296960100591CC2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C0BD276E2296960100591CC2 /* main.m */; };
+		C0BD2777229698D200591CC2 /* CXTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = C0BD2776229698D200591CC2 /* CXTimer.m */; };
+		C0BD277A22969CE700591CC2 /* NSTimer+Addtion.m in Sources */ = {isa = PBXBuildFile; fileRef = C0BD277922969CE700591CC2 /* NSTimer+Addtion.m */; };
+		C0BD277D2296BB7D00591CC2 /* CXProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = C0BD277C2296BB7D00591CC2 /* CXProxy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,12 @@
 		C0BD276B2296960100591CC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C0BD276D2296960100591CC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C0BD276E2296960100591CC2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C0BD2775229698D200591CC2 /* CXTimer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CXTimer.h; sourceTree = "<group>"; };
+		C0BD2776229698D200591CC2 /* CXTimer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CXTimer.m; sourceTree = "<group>"; };
+		C0BD277822969CE700591CC2 /* NSTimer+Addtion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSTimer+Addtion.h"; sourceTree = "<group>"; };
+		C0BD277922969CE700591CC2 /* NSTimer+Addtion.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+Addtion.m"; sourceTree = "<group>"; };
+		C0BD277B2296BB7D00591CC2 /* CXProxy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CXProxy.h; sourceTree = "<group>"; };
+		C0BD277C2296BB7D00591CC2 /* CXProxy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CXProxy.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +72,12 @@
 				C0BD2762229695FF00591CC2 /* ViewController.h */,
 				C0BD2763229695FF00591CC2 /* ViewController.m */,
 				C0BD2765229695FF00591CC2 /* Main.storyboard */,
+				C0BD2775229698D200591CC2 /* CXTimer.h */,
+				C0BD2776229698D200591CC2 /* CXTimer.m */,
+				C0BD277822969CE700591CC2 /* NSTimer+Addtion.h */,
+				C0BD277922969CE700591CC2 /* NSTimer+Addtion.m */,
+				C0BD277B2296BB7D00591CC2 /* CXProxy.h */,
+				C0BD277C2296BB7D00591CC2 /* CXProxy.m */,
 				C0BD27682296960100591CC2 /* Assets.xcassets */,
 				C0BD276A2296960100591CC2 /* LaunchScreen.storyboard */,
 				C0BD276D2296960100591CC2 /* Info.plist */,
@@ -141,9 +156,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0BD2777229698D200591CC2 /* CXTimer.m in Sources */,
+				C0BD277A22969CE700591CC2 /* NSTimer+Addtion.m in Sources */,
 				C0BD2764229695FF00591CC2 /* ViewController.m in Sources */,
 				C0BD276F2296960100591CC2 /* main.m in Sources */,
 				C0BD2761229695FF00591CC2 /* AppDelegate.m in Sources */,
+				C0BD277D2296BB7D00591CC2 /* CXProxy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
